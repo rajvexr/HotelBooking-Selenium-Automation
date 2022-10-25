@@ -50,7 +50,7 @@ public class BookingProcess extends Setup{
         driver.findElement(pages.terms).click();
         driver.findElement(pages.create_booking).click();
 
-cd ..
+
         ////////////////////////////////User Checkout////////////////////////////////
         String userDetails = "(//input[@class='text_field form-control'])";
 
